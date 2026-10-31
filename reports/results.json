@@ -1,0 +1,59 @@
+{
+ "Majority-class dummy": {
+  "macro_f1": 0.2467473234432762,
+  "accuracy": 0.5876064711598925,
+  "f1_high": 0.0,
+  "recall_high": 0.0,
+  "precision_high": 0.0,
+  "qwk": 0.0,
+  "macro_f1_fold_std": 0.011878485208542781
+ },
+ "Logistic regression (36 features)": {
+  "macro_f1": 0.6967245250888753,
+  "accuracy": 0.755473618018636,
+  "f1_high": 0.5486631016042781,
+  "recall_high": 0.8870317002881845,
+  "precision_high": 0.39716129032258063,
+  "qwk": 0.6619574224279423,
+  "macro_f1_fold_std": 0.046728443527356764
+ },
+ "LightGBM (36 features)": {
+  "macro_f1": 0.8414279800495588,
+  "accuracy": 0.8963299605556508,
+  "f1_high": 0.7201038455297745,
+  "recall_high": 0.6394812680115274,
+  "precision_high": 0.8239881173412551,
+  "qwk": 0.8308415032209244,
+  "macro_f1_fold_std": 0.07712298048432426
+ },
+ "LightGBM (reduced feature set)": {
+  "macro_f1": 0.8890771639405494,
+  "accuracy": 0.9230406448293603,
+  "f1_high": 0.8150270614453996,
+  "recall_high": 0.7377521613832853,
+  "precision_high": 0.9103840682788051,
+  "qwk": 0.8749635384229114,
+  "macro_f1_fold_std": 0.050037438250314044
+ },
+ "_selected_features": [
+  "day_of_week",
+  "time_bucket",
+  "area_context",
+  "complaint_type_clean",
+  "crowd_density",
+  "is_weekend",
+  "hour",
+  "complaint_type_count",
+  "complaint_type_share",
+  "complaint_severity",
+  "lighting_score",
+  "police_access_score",
+  "transport_access_score",
+  "urban_density_score",
+  "women_crime_rate_2023",
+  "education_poi_count_5km",
+  "nearest_police_station_km",
+  "commercial_landuse_count_5km",
+  "women_crime_growth_21_23"
+ ]
+}
